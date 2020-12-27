@@ -8,13 +8,16 @@
 #
 
 
-setwd("C:/Users/juanfidel18/Desktop/Coursera/developing Tools/APP")
-
 ##load library
 
+library(shiny)
+library(ggplot2)
+library(shinyBS) 
+library(shinythemes)
 library(caret)
 library(lattice)
 library(randomForest)
+
 
 # Setting up for Random Forest predictor.
 

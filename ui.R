@@ -6,9 +6,7 @@
 #
 #    http://shiny.rstudio.com/
 #
-##set wd
 
-setwd("C:/Users/juanfidel18/Desktop/Coursera/developing Tools/APP")
 
 ##set library
 
@@ -16,6 +14,9 @@ library(shiny)
 library(ggplot2)
 library(shinyBS) 
 library(shinythemes)
+library(caret)
+library(lattice)
+library(randomForest)
 
 # Define UI for application that generates random landmarks in a given location
 
@@ -160,7 +161,7 @@ shinyUI(
             
             h3("Developing Data Products course - Assignment Week 4 - Shiny Application and Reproducible Pitch"),
             
-            h3("Author: Gaston Dario Napoli - March, 2017"),
+            h3("Author: Juan Cepeda - Dec, 27, 2020"),
             
             br(),
             
@@ -172,7 +173,7 @@ shinyUI(
             
             p("Source code of this application is available at",
               a(href = "https://github.com/laplata2003/data-products-week-4-project",
-                "https://github.com/laplata2003/data-products-week-4-project")
+                "https://github.com/nosequiensoy007/Developing-Data-Products-Week-4-Project")
             )
             
         )

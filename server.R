@@ -7,10 +7,6 @@
 #    http://shiny.rstudio.com/
 #
 
-##set wd
-
-
-setwd("C:/Users/juanfidel18/Desktop/Coursera/developing Tools/APP")
 
 ##load library
 
@@ -19,8 +15,10 @@ library(ggplot2)
 library(caret)
 library(lattice)
 library(randomForest)
+library(shinyBS) 
+library(shinythemes)
 
-#
+
 # Defines the Random Forest model and predictor for 'mpg' in the 'mtcars' dataset.
 
 source(file = "model.R")

@@ -1,0 +1,25 @@
+---
+title: "week 4 pitch"
+author: "Nosequiensoy007"
+date: "28/12/2020"
+output: powerpoint_presentation
+---
+
+
+##  This is a Shiny web application. 
+- You can run the application by clicking
+
+
+##  Setting up for Random Forest predictor
+
+- data("mtcars")
+
+
+## To show structure in UI
+
+- Setting up the random generator seed.
+- Defining custom training controls with cross validation.
+
+## Random Forest model function.
+
+- The goal of this model is to predict 'mpg' (miles per gallon) using the rest of the variables
